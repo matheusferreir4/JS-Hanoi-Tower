@@ -43,5 +43,5 @@ Este projeto está licenciado sob a licença MIT.
 **Créditos**
 ------------
 
-* Desenvolvido por Matheus ferreira
+* Desenvolvido por Matheus Ferreira
 * Inspirado no jogo clássico Towers of Hanoi
