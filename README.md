@@ -28,7 +28,7 @@ O Towers of Hanoi é um jogo de lógica e habilidade que consiste em mover três
 **Instalação**
 --------------
 
-Para jogar o jogo, basta acessar o link do GitHub Pages: [insira o link aqui]
+Para jogar o jogo, basta acessar o link do GitHub Pages: https://matheusferreir4.github.io/JS-Hanoi-Tower/project-hanoi/
 
 **Contribuições**
 ----------------
