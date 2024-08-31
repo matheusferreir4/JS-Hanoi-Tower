@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torres de Hanói</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo das Torres de Hanói</h1>
+
+    <!-- Contador de Jogadas -->
+    <div class="info">
+        <span>Jogadas: <span id="contadorJogadas">0</span></span>
+        <span>Tempo: <span id="timer">00:00</span></span>
+    </div>
+
+    <!-- Menu de Seleção de Discos -->
+    <div class="menu">
+        <label for="numDiscos">Número de Discos:</label>
+        <select id="numDiscos">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <button id="iniciarJogo">Iniciar Jogo</button>
+    </div>
+
+    <div class="container">
+        <div class="torre" id="torreA"></div>
+        <div class="torre" id="torreB"></div>
+        <div class="torre" id="torreC"></div>
+    </div>
+
+    <!-- Botão de Reiniciar -->
+    <button id="reiniciarJogo" style="display: none;">Reiniciar Jogo</button>
+
+    <script src="hanoi.js"></script>
+</body>
+</html>
+
+
+
